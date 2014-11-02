@@ -1,0 +1,529 @@
+/* Navigation */
+.sncf-nav {
+	font-weight: 500;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>.active>a, .navbar-nav>.active>a:hover,
+	.navbar-nav>.active>a:focus {
+	color: #663242;
+	background-color: #fff;
+}
+
+.sncf-navbar-search {
+	right: 10px;
+}
+
+.btn-search {
+	color: #c90041;
+}
+/* Header */
+.sncf-header {
+	position: relative;
+	padding: 30px 15px;
+	color: #eee;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+	background-color: #333;
+	/*
+	background-image: -webkit-gradient(linear, left right, left left, from(#c90041),
+		to(#852568));
+	background-image: -webkit-linear-gradient(right, #c90041 0, #852568 100%);
+	background-image: -o-linear-gradient(right, #c90041 0, #852568 100%);
+	background-image: linear-gradient(to left, #c90041 0, #852568 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c90041',
+		endColorstr='#852568', GradientType=0);
+	background-repeat: repeat-x;
+*/
+}
+
+.sncf-header {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.sncf-landing {
+	position: relative;
+}
+
+.sncf-header a {
+	color: #eee;
+	text-decoration: none;
+}
+
+.sncf-header h1 {
+	margin-top: 0;
+	color: #fff;
+}
+
+.sncf-header p {
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.sncf-header .container {
+	position: relative;
+}
+
+@media ( min-width :768px) {
+	.sncf-header {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		font-size: 24px;
+		text-align: left;
+	}
+	.sncf-header h1 {
+		font-size: 60px;
+		line-height: 1;
+	}
+}
+
+@media ( min-width :992px) {
+	.sncf-header h1, .sncf-header p {
+		margin-right: 380px;
+	}
+}
+
+.header-user {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* image background */
+.sncf-header-background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	overflow: hidden;
+}
+
+#sncf-bg-photo {
+	display: none;
+}
+
+/* for about us page */
+.sncf-header-apropos {
+	background-color: #444;
+	background-image: none;
+	filter: none;
+}
+
+.sncf-header-layer {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	filter: blur(7px) brightness(0.6);
+	-webkit-filter: blur(7px) brightness(0.6);
+	-moz-filter: blur(7px) brightness(0.6);
+	-ms-filter: blur(7px) brightness(0.6);
+	-o-filter: blur(7px) brightness(0.6);
+	top: -15px;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: url(blur.svg#blur); /* thanks mozilla */
+}
+/* layer to darken pic */
+.sncf-header-layer-darken {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+/* header mission */
+.sncf-header-mission {
+	
+}
+
+.sncf-header h1 {
+	margin-right: 0;
+}
+
+.sncf-header-container {
+	text-align: center;
+}
+
+.landing-btns {
+	margin-top: 40px;
+}
+
+/* hamburger */
+.sncf-nav .navbar-toggle .icon-bar {
+	background-color: #c90041;
+}
+
+.sncf-nav .navbar-header .navbar-toggle {
+	border-color: #fff;
+}
+
+.sncf-nav .navbar-header .navbar-toggle:hover, .sncf-nav .navbar-header .navbar-toggle:focus
+	{
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;
+}
+
+/* footer */
+.sncf-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	color: #777;
+	text-align: center;
+	border-top: 1px solid #e5e5e5;
+}
+
+.sncf-footer-landing {
+	margin-top: 0;
+	border: none;
+}
+
+.sncf-footer-links {
+	padding-left: 0;
+	margin-top: 20px;
+	color: #999;
+}
+
+.sncf-footer-links li {
+	display: inline;
+	padding: 0 2px;
+}
+
+/* fullscreen signin */
+.sncf-fullscreen-bg {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-color: #852568;
+}
+
+.form-signin {
+	max-width: 280px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.form-signin .form-signin-heading, .form-signin {
+	margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	outline-width: 0;
+}
+
+.form-signin input {
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.form-signin-top {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-color: #eee;
+	outline-width: 0;
+}
+
+.form-signin-middle {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: #eee;
+	outline-width: 0;
+}
+
+.form-signin-bottom {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: #eee;
+	outline-width: 0;
+}
+
+.form-signin-heading {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* signin lower left link */
+.sncf-footer-sign {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.sncf-footer-sign-link {
+	text-align: center;
+	padding: 60px;
+	font-size: 14pt;
+	color: #fff;
+}
+
+/* commentaires */
+.comment-pic {
+	padding-right: 0;
+}
+
+.comment-text {
+	color: #4e595d;
+}
+
+.comment-info, .comment-info a {
+	color: #bfbfbf;
+}
+
+.comment-block {
+	width: 77%;
+	margin-left: 20px;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	padding: 20px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment-block-self {
+	margin: 0 20px;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	padding: 20px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment-info a:hover, .comment-info a:active {
+	color: #999;
+}
+
+textarea {
+	resize: none;
+}
+
+.comment-block:before {
+	position: absolute;
+	top: 24px;
+	display: inline-block;
+	border-top: 15px solid transparent;
+	border-left: 0px solid #ccc;
+	border-right: 15px solid #ccc;
+	border-bottom: 15px solid transparent;
+	content: " ";
+	left: -15px;
+	right: auto;
+	top: 24px;
+}
+
+.comment-block:after {
+	position: absolute;
+	top: 25px;
+	display: inline-block;
+	border-top: 14px solid transparent;
+	border-left: 0px solid #fff;
+	border-right: 14px solid #fff;
+	border-bottom: 14px solid transparent;
+	content: " ";
+	left: -14px;
+	right: auto;
+}
+
+.comment-panel {
+	margin-bottom: 16px;
+}
+
+.comments {
+	padding: 16px;
+}
+
+/* google maps integration */
+#map-canvas {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* station line route */
+.sncf-route {
+	list-style: none;
+	padding: 0;
+	position: relative;
+}
+
+.sncf-route:before {
+	background-color: #c90041;
+	top: 20px;
+	bottom: 0px;
+	position: absolute;
+	content: " ";
+	width: 12px;
+	left: 20px;
+	margin-left: -1.5px;
+}
+
+.sncf-route>li {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.sncf-route>li>.sncf-route-panel {
+	padding: 20px;
+	margin-left: 35px;
+}
+
+.sncf-route>li>.sncf-route-badge {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	left: 19px;
+	margin-left: -10px;
+	background-color: #c90041;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+.sncf-route-dot {
+	background: #fff;
+	width: 16px;
+	height: 16px;
+	margin: 7px;
+	border-radius: 50%;
+}
+
+.sncf-route-illuminated-dot {
+	background: #fdd835;
+}
+
+.sncf-route-title {
+	margin-top: 0;
+}
+
+/* panel onglet */
+.nav-tabs+.tab-content .panel-default {
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+}
+
+/* landing search */
+.control-label-landing {
+	font-weight: normal;
+	font-size: smaller;
+}
+
+#landing-search {
+	padding-top: 40px;
+}
+
+.landing-search-form {
+	margin: 10px 0;
+	padding: 0 15px;
+}
+
+input.transparent-input {
+	background-color: rgba(245, 245, 245, 0.4);
+	border: none !important;
+	color: #fff;
+}
+
+/* placeholder input */
+.transparent-input::-webkit-input-placeholder {
+	color: #ddd;
+}
+
+.transparent-input::-moz-placeholder {
+	color: #ddd !important;
+}
+
+.transparent-input:-ms-input-placeholder {
+	color: #ddd;
+}
+
+/* hide input spinner */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* list of stations */
+.index-letter {
+	clear: both;
+	padding: 50px 0 0 14px;
+	font-size: 26px;
+}
+
+#scroller {
+	z-index: 999;
+	background-color: #fff;
+}
+
+#alphabet {
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px dotted #eee;
+}
+
+a.anchor {
+	display: block;
+	position: relative;
+	top: -180px;
+	visibility: hidden;
+}
+
+/* error page */
+.top-buffer {
+	margin-top: 40px;
+}
